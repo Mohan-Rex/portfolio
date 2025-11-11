@@ -66,7 +66,7 @@ export default function Contact() {
     {
       img: githubLogo,
       title: "GitHub",
-      link: "https://github.com/Mohan-7227",
+      link: "https://github.com/Mohan-Rex",
       tooltip: "View my GitHub",
     },
     {
