@@ -195,7 +195,7 @@ export default function Resume() {
           {[
             { name: "💻 GitHub", link: "https://github.com/Mohan-7227" },
             { name: "🔗 LinkedIn", link: "https://www.linkedin.com/in/mohan-s-9bba34211" },
-            { name: "🌐 Portfolio", link: "https://mohanportfolio.in" }, // update after hosting
+            { name: "🌐 Portfolio", link: "https://mohan-rex.vercel.app/" }, // update after hosting
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -228,7 +228,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/resume.pdf"
+            src="/resume new.pdf"
             title="Mohan S Resume"
             style={{
               width: "100%",
@@ -241,7 +241,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/resume new.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
