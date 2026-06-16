@@ -84,7 +84,7 @@ export default function Contact() {
     {
       img: whatsappLogo,
       title: "WhatsApp",
-      link: "https://wa.me/919513094209",
+      link: "",
       tooltip: "Chat on WhatsApp",
     },
   ];
